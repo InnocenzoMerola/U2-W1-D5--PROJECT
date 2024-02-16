@@ -25,6 +25,7 @@ h6 {
   width: 100%;
   position: fixed;
   background-color: #ffc017;
+  z-index: 2;
 }
 
 .nav-container {
@@ -79,6 +80,7 @@ h6 {
 .m {
   position: absolute;
   right: 0;
+  top: 4rem;
 }
 
 .title {
@@ -95,7 +97,7 @@ h6 {
   display: flex;
 }
 .ti-flex {
-  margin-top: 8rem;
+  margin-top: 10rem;
   margin-bottom: 6rem;
 }
 
@@ -205,6 +207,11 @@ h6 {
 .time-read {
 } */
 
+aside {
+  display: flex;
+  justify-content: center;
+}
+
 .content {
   display: flex;
   justify-content: center;
@@ -274,4 +281,43 @@ h6 {
   display: flex;
   justify-content: flex-end;
   max-width: 194px;
+}
+
+section {
+  margin-left: 6em;
+}
+
+.p-gray-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.p-gray-div > p {
+  border: 1px solid #d1d1d1;
+  padding: 12px 18px;
+  margin-bottom: 10px;
+}
+
+.div-section {
+  padding-inline: 25px;
+  width: 457px;
+  margin-bottom: 55px;
+}
+
+.div-section > div {
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+footer > div {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 27px;
+  line-height: 35px;
 }
