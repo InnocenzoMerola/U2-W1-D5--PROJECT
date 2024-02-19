@@ -812,7 +812,7 @@ footer > div {
   }
 
   .article {
-    min-height: 33vh;
+    max-height: 33vh;
     width: 400px;
   }
 
